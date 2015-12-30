@@ -389,7 +389,7 @@ RCT_EXPORT_METHOD(showImagePicker:(NSDictionary *)options callback:(RCTResponseS
     }
     else {
         NSLog(@"Error setting skip backup attribute: file not found");
-        return @NO;
+        return NO;
     }
 }
 
